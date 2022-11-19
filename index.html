@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="container my-5">
+        <label for="productName">Product Name: </label>
+        <input type="text" id="productName" class="form-control my-2">
+        
+        <label for="productprice">Product Price: </label>
+        <input type="text" id="productPrice" class="form-control my-2">
+        
+        <label for="productcategory">Product categoray: </label>
+        <input type="text" id="productCategory" class="form-control my-2">
+        
+        <label for="productDesc">Product Desc: </label>
+        <input type="text" id="productDesc" class="form-control my-2">
+
+        <button  id="add" class="btn btn-primary my-2">Add product</button>
+    </div>
+     
+    <div class="container">
+      
+        <table class="table">
+    
+            <thead>
+              <th>Index</th>
+              <th>Product Name</th>
+              <th>Product Price</th>
+              <th>Product Categoray</th>
+              <th>Product Desc</th>
+              <th>Update</th>
+              <th>Delete</th>
+          </thead>
+          <tbody id="values">
+             
+          </tbody>
+       </table>
+    </div>
+
+
+
+
+    <script src="js/product.js"></script>
+</body>
+</html>
